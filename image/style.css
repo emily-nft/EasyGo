@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+body {
+  font-family: "Cormorant Infant", serif;
+
+  font-family: "Montserrat", sans-serif;
+
+  font-family: "Raleway", sans-serif;
+
+  font-family: "Roboto", sans-serif;
+
+  font-family: "Source Sans Pro", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 2rem;
+}
+strong {
+  color: rgb(40, 72, 119);
+}
+b {
+  color: rgba(0, 71, 138, 0.623);
+}
+h1 {
+  font-weight: 400;
+  text-align: center;
+  /* background-color: rgba(94, 94, 94, 0.432); */
+  padding: 15px;
+  color: #000;
+}
+img {
+  width: 80px;
+  margin-top: 50px;
+  background-color: rgb(185, 185, 185);
+}
+.block {
+  background-color: #7ea1b4;
+  border-radius: 30%;
+  padding: 15px;
+  border: inset 10px solid rgb(255, 255, 255);
+  box-shadow: 10px 10px 80px rgb(102, 102, 102);
+}
+.block:hover {
+  transition: 1s ease-out;
+}
+.block:active {
+  transform: translateY(40px);
+}
+.all {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px;
+}
+.display {
+  width: 500px;
+  /* background: rgb(240, 240, 240); */
+  height: 200px;
+  padding: 10px;
+  z-index: 9;
+  margin: 10px;
+  color: rgb(70, 59, 59);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.zelle {
+  background-color: #6d1ed4;
+  border-radius: 30%;
+  padding: 15px;
+  border: inset 10px solid rgb(255, 255, 255);
+  box-shadow: 10px 10px 80px rgb(102, 102, 102);
+}
+.zelle:hover {
+  transition: 1s ease-out;
+}
+.zelle:active {
+  transform: translateY(40px);
+}
+.boa {
+  background-color: #ffff;
+  border-radius: 30%;
+  padding: 15px;
+  border: inset 10px solid rgb(255, 255, 255);
+  box-shadow: 10px 10px 80px rgb(102, 102, 102);
+}
+.boa:hover {
+  transition: 1s ease-out;
+}
+.boa:active {
+  transform: translateY(40px);
+}
+.logo {
+  width: 80px;
+  background-color: #00c92f;
+  border-radius: 20%;
+  padding: 15px;
+  border: inset 10px solid rgb(255, 255, 255);
+  box-shadow: 10px 10px 80px rgb(102, 102, 102);
+}
+.logo:hover {
+  transition: 1s ease-out;
+}
+.logo:active {
+  transform: translateY(40px);
+}
+.chase {
+  background-color: #0f5ba7;
+  border-radius: 30%;
+  padding: 15px;
+  border: inset 10px solid rgb(255, 255, 255);
+  box-shadow: 10px 10px 80px rgb(102, 102, 102);
+}
+.chase:hover {
+  transition: 1s ease-out;
+}
+.chase:active {
+  transform: translateY(40px);
+}
+.app {
+  display: flex;
+  gap: 20px;
+  max-width: 1500px;
+  margin: 20px 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+@media screen and (max-width: 600px) {
+  .app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    max-width: 400px;
+    margin-left: 8px;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .display {
+    max-width: 400px;
+    padding: 10px 10px;
+    /* margin: 0px -10px; */
+    /* margin-right: 25px; */
+  }
+  input {
+    width: 120px;
+  }
+
+  .logo:hover {
+    transition: 1s ease-out;
+  }
+  .logo:active {
+    transform: translateY(15px);
+  }
+  .block:hover {
+    transition: 1s ease-out;
+  }
+  .block:active {
+    transform: translateY(15px);
+  }
+  .zelle:hover {
+    transition: 1s ease-out;
+  }
+  .zelle:active {
+    transform: translateY(15px);
+  }
+  .boa:hover {
+    transition: 1s ease-out;
+  }
+  .boa:active {
+    transform: translateY(15px);
+  }
+  .chase:hover {
+    transition: 1s ease-out;
+  }
+  .chase:active {
+    transform: translateY(15px);
+  }
+}

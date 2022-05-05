@@ -136,7 +136,7 @@ h1 {
 }
 @media screen and (max-width: 700px) {
   img {
-    width: 50px;
+    width: 20px;
 
     margin-top: 20px;
     background-color: rgb(185, 185, 185);

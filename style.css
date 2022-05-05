@@ -125,7 +125,7 @@ h1 {
 } */
 .app {
   display: flex;
-  gap: 4px 3px;
+  /* gap: 4px 3px; */
   /* max-width: 1500px; */
   margin: 20px 20px;
   /* flex-wrap: wrap; */

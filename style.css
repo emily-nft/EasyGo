@@ -40,7 +40,7 @@ img {
   margin-top: 20px;
   background-color: rgb(185, 185, 185);
 }
-.block {
+/ .block {
   background-color: #7ea1b4;
   border-radius: 30%;
   padding: 15px;
@@ -62,7 +62,7 @@ img {
 .display {
   width: 500px;
   background: rgb(240, 240, 240);
-  /* height: 200px; */
+
   padding: 10px;
 
   margin: 10px;
@@ -71,7 +71,7 @@ img {
   font-weight: bold;
   text-transform: capitalize;
 }
-.zelle {
+/*.zelle {
   background-color: #6d1ed4;
   border-radius: 30%;
   padding: 15px;
@@ -124,7 +124,7 @@ img {
 }
 .chase:active {
   transform: translateY(40px);
-}
+} */
 .app {
   display: flex;
   gap: 4px 3px;

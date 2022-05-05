@@ -157,7 +157,7 @@ img {
     transition: 1s ease-in;
   }
   .logo:active {
-    transform: translateY(15px);
+    transform: translateY(2px);
   }
   .block:hover {
     transition: 1s ease-out;

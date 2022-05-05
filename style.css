@@ -160,7 +160,7 @@ h1 {
   input {
     max-width: 120px;
   }
-  .logo {
+  /* .logo {
     width: 20px;
   }
   .logo:hover {
@@ -192,5 +192,5 @@ h1 {
   }
   .chase:active {
     transform: translateY(15px);
-  }
+  } */
 }

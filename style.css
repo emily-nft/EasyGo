@@ -136,7 +136,7 @@ img {
   .app {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 
     max-width: 400px;
     margin-left: 8px;
@@ -154,7 +154,7 @@ img {
   }
 
   .logo:hover {
-    transition: 1s ease-out;
+    transition: 1s ease-in;
   }
   .logo:active {
     transform: translateY(15px);

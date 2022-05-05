@@ -97,7 +97,7 @@ img {
 .boa:active {
   transform: translateY(40px);
 }
-/* .logo {
+.logo {
   width: 80px;
 
   background-color: #00c92f;
@@ -107,11 +107,11 @@ img {
   box-shadow: 10px 10px 80px rgb(102, 102, 102);
 }
 .logo:hover {
-  transition: 1s ease-in;
-} */
-/* .logo:active {
-  transform: translateY(2px);
-} */
+  transition: 1s ease-out;
+}
+.logo:active {
+  transform: translateY(40px);
+}
 .chase {
   background-color: #0f5ba7;
   border-radius: 30%;
@@ -134,11 +134,17 @@ img {
   justify-content: space-evenly;
   /* margin-bottom: 2rem; */
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
+  img {
+    width: 50px;
+
+    margin-top: 20px;
+    background-color: rgb(185, 185, 185);
+  }
   .app {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 
     max-width: 400px;
     margin-left: 8px;
@@ -154,13 +160,15 @@ img {
   input {
     max-width: 120px;
   }
-
-  /* .logo:hover {
-    transition: 1s ease-in;
+  .logo {
+    width: 50px;
+  }
+  .logo:hover {
+    transition: 1s ease-out;
   }
   .logo:active {
-    transform: translateY(2px);
-  } */
+    transform: translateY(15px);
+  }
   .block:hover {
     transition: 1s ease-out;
   }

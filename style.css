@@ -96,7 +96,7 @@ img {
 .boa:active {
   transform: translateY(40px);
 }
-.logo {
+/* .logo {
   width: 80px;
 
   background-color: #00c92f;
@@ -107,7 +107,7 @@ img {
 }
 .logo:hover {
   transition: 1s ease-in;
-}
+} */
 .logo:active {
   transform: translateY(2px);
 }
@@ -154,12 +154,12 @@ img {
     max-width: 120px;
   }
 
-  .logo:hover {
+  /* .logo:hover {
     transition: 1s ease-in;
   }
   .logo:active {
     transform: translateY(2px);
-  }
+  } */
   .block:hover {
     transition: 1s ease-out;
   }

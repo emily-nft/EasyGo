@@ -11,6 +11,7 @@ html {
   font-family: "Roboto", sans-serif;
 
   font-family: "Source Sans Pro", sans-serif;
+  height: 100vh;
 }
 * {
   margin: 0;
@@ -34,8 +35,8 @@ h1 {
   color: #000;
 }
 img {
-  width: 80px;
-  margin-top: 50px;
+  max-width: 80px;
+  margin-top: 20px;
   background-color: rgb(185, 185, 185);
 }
 .block {
@@ -60,9 +61,9 @@ img {
 .display {
   width: 500px;
   background: rgb(240, 240, 240);
-  height: 200px;
+  /* height: 200px; */
   padding: 10px;
-  z-index: 9;
+
   margin: 10px;
   color: rgb(70, 59, 59);
   font-family: "Roboto", sans-serif;
@@ -146,11 +147,10 @@ img {
   .display {
     max-width: 400px;
     padding: 10px 10px;
-    /* margin: 0px -10px; */
-    /* margin-right: 25px; */
   }
+
   input {
-    width: 120px;
+    max-width: 120px;
   }
 
   .logo:hover {

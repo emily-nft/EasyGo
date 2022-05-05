@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 
-body,
-html {
+body {
   font-family: "Cormorant Infant", serif;
 
   font-family: "Montserrat", sans-serif;
@@ -11,7 +10,6 @@ html {
   font-family: "Roboto", sans-serif;
 
   font-family: "Source Sans Pro", sans-serif;
-  height: 100vh;
 }
 * {
   margin: 0;

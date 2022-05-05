@@ -18,6 +18,7 @@ body {
 }
 h2 {
   font-size: 2rem;
+  padding-top: 5px;
 }
 strong {
   color: rgb(40, 72, 119);
@@ -32,16 +33,17 @@ h1 {
   padding: 15px;
   color: #000;
 }
-/* img {
+img {
   max-width: 50px;
 
   margin-top: 20px;
   background-color: rgb(185, 185, 185);
-} */
-/* .block {
+}
+.block {
+  width: 40px;
   background-color: #7ea1b4;
   border-radius: 30%;
-  padding: 15px;
+  padding: 10px;
   border: inset 10px solid rgb(255, 255, 255);
   box-shadow: 10px 10px 80px rgb(102, 102, 102);
 }
@@ -69,10 +71,11 @@ h1 {
   font-weight: bold;
   text-transform: capitalize;
 }
-/*.zelle {
+.zelle {
+  width: 40px;
   background-color: #6d1ed4;
   border-radius: 30%;
-  padding: 15px;
+  padding: 10px;
   border: inset 10px solid rgb(255, 255, 255);
   box-shadow: 10px 10px 80px rgb(102, 102, 102);
 }
@@ -83,9 +86,10 @@ h1 {
   transform: translateY(40px);
 }
 .boa {
+  width: 40px;
   background-color: #ffff;
   border-radius: 30%;
-  padding: 15px;
+  padding: 10px;
   border: inset 10px solid rgb(255, 255, 255);
   box-shadow: 10px 10px 80px rgb(102, 102, 102);
 }
@@ -96,11 +100,11 @@ h1 {
   transform: translateY(40px);
 }
 .logo {
-  width: 80px;
-
+  width: 50px;
+  height: 38px;
   background-color: #00c92f;
   border-radius: 20%;
-  padding: 15px;
+  padding: 10px;
   border: inset 10px solid rgb(255, 255, 255);
   box-shadow: 10px 10px 80px rgb(102, 102, 102);
 }
@@ -111,9 +115,10 @@ h1 {
   transform: translateY(40px);
 }
 .chase {
+  width: 45px;
   background-color: #0f5ba7;
   border-radius: 30%;
-  padding: 15px;
+  padding: 10px;
   border: inset 10px solid rgb(255, 255, 255);
   box-shadow: 10px 10px 80px rgb(102, 102, 102);
 }
@@ -122,29 +127,31 @@ h1 {
 }
 .chase:active {
   transform: translateY(40px);
-} */
+}
 .app {
-  /* display: flex; */
-  /* gap: 4px 3px; */
+  display: flex;
+  gap: 4px 3px;
   /* max-width: 1500px; */
   margin: 20px 20px;
-  /* flex-wrap: wrap; */
-  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   img {
-    max-width: 20px;
+    max-width: 30px;
+    height: 30px;
 
-    margin-top: 20px;
+    margin-top: 50px;
     /* background-color: rgb(185, 185, 185); */
   }
-  /* .app {
-    /* display: flex;
-    flex-wrap: wrap; */
-  /* gap: 20px; */
+  .app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 
-  /* max-width: 100%; */
-  /* margin-left: 8px; */
+    /* max-width: 100%; */
+    margin-left: 8px;
+  }
 
   h3 {
     font-size: 1rem;
@@ -157,8 +164,9 @@ h1 {
   input {
     max-width: 120px;
   }
-  /* .logo {
-    width: 20px;
+  .logo {
+    width: 27px;
+    height: 30px;
   }
   .logo:hover {
     transition: 1s ease-in;
@@ -189,5 +197,5 @@ h1 {
   }
   .chase:active {
     transform: translateY(15px);
-  } */
+  }
 }

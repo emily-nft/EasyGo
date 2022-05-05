@@ -98,6 +98,7 @@ img {
 }
 .logo {
   width: 80px;
+
   background-color: #00c92f;
   border-radius: 20%;
   padding: 15px;
@@ -105,10 +106,10 @@ img {
   box-shadow: 10px 10px 80px rgb(102, 102, 102);
 }
 .logo:hover {
-  transition: 1s ease-out;
+  transition: 1s ease-in;
 }
 .logo:active {
-  transform: translateY(40px);
+  transform: translateY(2px);
 }
 .chase {
   background-color: #0f5ba7;

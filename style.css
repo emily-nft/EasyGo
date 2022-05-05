@@ -108,9 +108,9 @@ img {
 .logo:hover {
   transition: 1s ease-in;
 } */
-.logo:active {
+/* .logo:active {
   transform: translateY(2px);
-}
+} */
 .chase {
   background-color: #0f5ba7;
   border-radius: 30%;

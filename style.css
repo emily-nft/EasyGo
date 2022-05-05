@@ -124,7 +124,7 @@ h1 {
   transform: translateY(40px);
 } */
 .app {
-  display: flex;
+  /* display: flex; */
   /* gap: 4px 3px; */
   /* max-width: 1500px; */
   margin: 20px 20px;

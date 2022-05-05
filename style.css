@@ -134,7 +134,7 @@ img {
   justify-content: space-evenly;
   /* margin-bottom: 2rem; */
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   img {
     width: 50px;
 
@@ -142,12 +142,12 @@ img {
     background-color: rgb(185, 185, 185);
   }
   .app {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* gap: 20px; */
 
-    max-width: 400px;
-    margin-left: 8px;
+    max-width: 100%;
+    /* margin-left: 8px; */
   }
   h3 {
     font-size: 1rem;
@@ -164,31 +164,31 @@ img {
     width: 50px;
   }
   .logo:hover {
-    transition: 1s ease-out;
+    transition: 1s ease-in;
   }
   .logo:active {
     transform: translateY(15px);
   }
   .block:hover {
-    transition: 1s ease-out;
+    transition: 1s ease-in;
   }
   .block:active {
     transform: translateY(15px);
   }
   .zelle:hover {
-    transition: 1s ease-out;
+    transition: 1s ease-in;
   }
   .zelle:active {
     transform: translateY(15px);
   }
   .boa:hover {
-    transition: 1s ease-out;
+    transition: 1s ease-in;
   }
   .boa:active {
     transform: translateY(15px);
   }
   .chase:hover {
-    transition: 1s ease-out;
+    transition: 1s ease-in;
   }
   .chase:active {
     transform: translateY(15px);

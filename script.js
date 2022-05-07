@@ -43,6 +43,7 @@ submit.addEventListener("click", function (e) {
     text2.textContent = "pending...";
     setTimeout(function () {
       text2.textContent = `You have successfully sent $${data} to ${data2}`;
+      window.print();
     }, 8000);
   }
 });
